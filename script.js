@@ -1290,7 +1290,7 @@ function showResult() {
     generateChips(els.cStim, data.stim);
     generateChips(els.cConf, data.conf);
 
-    const siteUrl = "https://mokazarashi-cell.github.io/ai-chat-style-test/";
+    const siteUrl = "https://mokazarashi-cell.github.io/ai-chat-making-style/";
     const shareLead = data.share || data.summary;
     const shareText = `私のAIキャラメイク性格は【${typeCode}：${data.title}（${data.bot}）】でした！\n\n「${shareLead}」\n\n#AIキャラメイク性格診断`;
     els.shareBtn.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(siteUrl)}`;
